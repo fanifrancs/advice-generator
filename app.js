@@ -16,15 +16,14 @@ setInterval(() => {
 
 button.addEventListener('click', getAdvice);
 
-async function getAdvice(event) {
+async function getAdvice() {
   url = 'https://api.adviceslip.com/advice';
   try {
-    res = await fetch(url);
+    res = await fetch(url, {cache: 'no-cache'});
     if (res.status === 200) {
       data = await res.text();
       advice = JSON.parse(data);
       renderAdvice(advice);
-      console.log(advice)
     } else {
       alert('Something went wrong')
     }
@@ -33,7 +32,7 @@ async function getAdvice(event) {
   }
 }
 
-function renderAdvice(param) {
-	adviceRender.innerText = `"${param.slip.advice}"`;
-	adviceNo.innerText = `${param.slip.id}`;
+function renderAdvice(arg) {
+	adviceRender.innerText = `"${arg.slip.advice}"`;
+	adviceNo.innerText = `${arg.slip.id}`;
 }

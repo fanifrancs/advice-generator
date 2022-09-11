@@ -40,7 +40,12 @@ button:hover{
 
 .btn-div{
 	position: absolute;
-	left: 44%;
+	left: 50%; 
+	translate: -50%; 
+}
+
+.divider{
+	width: 100%;
 }
 
 .tag{
