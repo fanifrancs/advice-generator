@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [click here](#)
-- Live Site URL: [click here](#)
+- Solution URL: [click here](https://www.frontendmentor.io/solutions/mobilefirst-responsive-solution-DIZoKS0LWz)
+- Live Site URL: [click here](https://fanifrancs.github.io/advice-generator/)
 
 ## My process
 
@@ -45,7 +45,7 @@ I learned CSS positions and how I could also make requests using the fetch api.
 ### Useful resources
 
 - [superdevresources.com](https://superdevresources.com/css-button-glow-effect/) - 
-Helped me out in creating the button's glow effect
+Helped me out in creating the button's glow effect.
 
 ## Author
 
