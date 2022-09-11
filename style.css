@@ -13,11 +13,10 @@ body{
 }
 
 .container{
-	width: 500px;
-	min-width: 350px;
+	max-width: 500px;
 	padding: 30px; 
 	border-radius: 10px;
-	margin: 100px auto 0;
+	margin: 150px 10px 0;
 	color: white;
 	background-color: hsl(217, 19%, 24%);
 	text-align: center;
