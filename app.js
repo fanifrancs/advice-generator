@@ -25,7 +25,7 @@ async function getAdvice() {
       advice = JSON.parse(data);
       renderAdvice(advice);
     } else {
-      alert('Something went wrong')
+      alert('Something went wrong');
     }
   } catch(error) {
     console.log(error);
