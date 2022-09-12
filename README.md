@@ -49,6 +49,6 @@ Helped me out in creating the button's glow effect.
 
 ## Author
 
-- Website - [Franciscobaze](https://franciscobaze.hashnode.dev)
+- Website - [franciscobaze](https://franciscobaze.hashnode.dev)
 - Frontend Mentor - [fanifrancs](https://www.frontendmentor.io/profile/fanifrancs)
 - Twitter - [fanifrancs](https://www.twitter.com/fanifrancs)

@@ -10,13 +10,14 @@ body{
 	align-items: center;
 	font-family: 'Manrope', sans-serif;
 	background-color: hsl(218, 23%, 16%);
+	min-height: 100vh;
 }
 
 .container{
 	max-width: 500px;
+	margin: 0 10px;
 	padding: 30px; 
 	border-radius: 10px;
-	margin: 150px 10px 0;
 	color: white;
 	background-color: hsl(217, 19%, 24%);
 	text-align: center;
