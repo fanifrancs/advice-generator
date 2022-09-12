@@ -32,7 +32,7 @@ async function getAdvice() {
   }
 }
 
-function renderAdvice(arg) {
-	adviceRender.innerText = `"${arg.slip.advice}"`;
-	adviceNo.innerText = `${arg.slip.id}`;
+function renderAdvice(param) {
+	adviceRender.innerText = `"${param.slip.advice}"`;
+	adviceNo.innerText = `${param.slip.id}`;
 }
